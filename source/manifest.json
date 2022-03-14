@@ -1,5 +1,5 @@
 {
-	"name": "Awesome Extension",
+	"name": "Apollo",
 	"version": "0.0.0",
 	"description": "An awesome new browser extension",
 	"homepage_url": "https://github.com/fregante/browser-extension-template",
@@ -20,20 +20,18 @@
 	],
 	"content_scripts": [
 		{
-			"matches": [ "https://github.com/fregante/browser-extension-template/*" ],
-			"js": [ "content.js" ],
-			"css": [ "content.css" ],
+			"matches": ["<all_urls>"],
+			"js": ["content.js"],
+			"css": ["content.css"],
 			"run_at": "document_end"
 		}
- 	],
+	],
 	"options_ui": {
 		"chrome_style": true,
 		"page": "options.html"
 	},
 	"background": {
 		"persistent": false,
-		"scripts": [
-			"background.js"
-		]
+		"scripts": ["background.js"]
 	}
 }
