@@ -16,6 +16,7 @@
 	},
 	"permissions": [
 		"https://github.com/fregante/browser-extension-template/*",
+		"tabs",
 		"storage"
 	],
 	"content_scripts": [
@@ -28,10 +29,11 @@
 	],
 	"options_ui": {
 		"chrome_style": true,
-		"page": "options.html"
+		"page": "options/options.html"
 	},
 	"background": {
 		"persistent": false,
 		"scripts": ["background.js"]
-	}
+	},
+	"web_accessible_resources": ["onboarding/index.html"]
 }

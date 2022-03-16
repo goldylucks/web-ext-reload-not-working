@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react"
 import { Modal } from "react-bootstrap"
 import { Typeahead } from "react-bootstrap-typeahead/dist/react-bootstrap-typeahead"
 import { useSelector } from "react-redux"
-import { selectSlackUsers } from "../store/slack-users/slack-users.slice"
+import { selectSlackUsers } from "../../store/slack-users/slack-users.slice"
 
 export default function SlackUsersAc() {
 	const typeaheadRef = useRef(null)
