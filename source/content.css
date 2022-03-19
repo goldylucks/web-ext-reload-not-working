@@ -1,6 +1,7 @@
 @import "npm:bootstrap/dist/css/bootstrap.min.css";
 @import "npm:react-bootstrap-typeahead/css/Typeahead.css";
 @import "npm:react-bootstrap-typeahead/css/Typeahead.bs5.css";
+@import "react/OnBoarding/OnBoarding.css";
 
 .slack-users-ac {
 	background: white;

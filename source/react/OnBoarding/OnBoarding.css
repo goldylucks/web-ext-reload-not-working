@@ -1,0 +1,18 @@
+.onboarding-bottom-right {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 100;
+	background: white;
+}
+
+.onboarding-logo {
+	width: 120px;
+}
+
+.text-bubble {
+	background: white;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}

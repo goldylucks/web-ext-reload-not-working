@@ -20,6 +20,7 @@ export default function SlackUsersAc() {
 
 	const onKeyup = (event) => {
 		if (event.key === "$") {
+			console.log("$")
 			// setTimeout to flush the $ to the dom for grabbing the content later
 			setTimeout(onDollarSign)
 		}
@@ -73,5 +74,6 @@ export default function SlackUsersAc() {
 }
 
 function getTextEditor() {
+	// TODO get from active tab
 	return document.querySelector(".zendesk-editor--rich-text-container")
 }
